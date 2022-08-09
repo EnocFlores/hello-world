@@ -36,5 +36,5 @@ break
 
 [Link](https://github.com/EnocFlores/hello-world)
 
-![image](image.jpg)
+![image](octocat.png)
 
