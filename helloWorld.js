@@ -7,7 +7,9 @@
 
 
 
+/***************/
 /*** OBJECTS ***/
+/***************/
 let anObject = {
 	property1 = "aValue",
 	property2 = "aNumValue",
@@ -19,7 +21,9 @@ let callBracketObject = anObject['property2'];
 
 
 
+/**************************/
 /*** OBJECT CONSTRUCTOR ***/
+/**************************/
 function PrototypeObject(property1, property2, property3) {
 	this.property1 = property1;
 	this.property2 = property2;
@@ -28,7 +32,9 @@ function PrototypeObject(property1, property2, property3) {
 
 
 
+/**************/
 /*** ARRAYS ***/
+/**************/
 let anArray = [ "thing1", "thing2", "thing3", "etc..." ];
 anArray[3]; //etc...
 
@@ -50,14 +56,18 @@ anArray.push('thing4');
 
 
 
+/*****************/
 /*** FUNCTIONS ***/
+/*****************/
 function nameOfFunction () {
 	return something="returning value from function"
 };
 
 
 
+/***********************/
 /*** BEYOND BOOLEANS ***/
+/***********************/
 // Falsy Values
 // (false);
 // (0);
@@ -68,7 +78,9 @@ function nameOfFunction () {
 
 
 
+/*************/
 /*** REGEX ***/
+/*************/
 // /pattern/modifiers;
 // Modifiers:
 // 	i (case insensitive)
@@ -81,7 +93,9 @@ let regEx = /ou/i;
 
 
 
+/*******************/
 /*** THIS & BIND ***/
+/*******************/
 // Sometimes this can lose context when you start to manipulate it outside the function is was called in, bind helps to recover and keep that connection
 // let namedFunc = aFunc.bind(person1)();
 
