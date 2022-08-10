@@ -1,12 +1,9 @@
 // Comments in javascript
 
-
-
-
-
-
-
-
+/*** INSTANTIATING VATIABLES ***/
+// var (keeps it inside a function scope, but no restriced outside scope of [] or {})
+// let (keeps scope anywhere inside and brackets, (To Enoc: just like Java)
+// const (once instantiated, varaible cannot be changed)
 
 
 
@@ -84,4 +81,15 @@ let regEx = /ou/i;
 
 
 
-/*** ***/
+/*** THIS & BIND ***/
+// Sometimes this can lose context when you start to manipulate it outside the function is was called in, bind helps to recover and keep that connection
+// let namedFunc = aFunc.bind(person1)();
+
+
+
+
+
+
+
+
+
