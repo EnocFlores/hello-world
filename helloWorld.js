@@ -101,7 +101,21 @@ let regEx = /ou/i;
 
 
 
+/***************************/
+/*** MAP, FILTER, REDUCE ***/
+/***************************/
+Map/filter/reduce in a tweet:
 
+map([🌽, 🐮, 🐔], cook)
+=> [🍿, 🍔, 🍳]
+
+filter([🍿, 🍔, 🍳], isVegetarian)
+=> [🍿, 🍳]
+
+reduce([🍿, 🍳], eat)
+=> 💩
+
+— Steven Luscher (@steveluscher) June 10, 2016
 
 
 
